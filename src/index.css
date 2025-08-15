@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Add this CSS in your global CSS file or style tag */
+::-webkit-scrollbar {
+  width: 0.5em; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Make the scrollbar track transparent */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Hide the scrollbar thumb */
+  border-radius: 4px; /* Add some border-radius for aesthetics */
+}

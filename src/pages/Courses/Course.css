@@ -1,0 +1,7 @@
+.course-btn-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin-bottom: 10px;
+}

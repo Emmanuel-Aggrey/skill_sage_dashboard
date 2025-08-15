@@ -1,0 +1,37 @@
+/* Login.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f2f5;
+}
+
+.login-card {
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 450px; 
+  text-align: center;
+}
+
+.login-form {
+  max-width: 450px;
+}
+.login-form-forgot {
+  float: right;
+}
+.ant-col-rtl .login-form-forgot {
+  float: left;
+}
+.login-form-button {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .login-card {
+    width: 95%; 
+  }
+}

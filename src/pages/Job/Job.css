@@ -1,0 +1,18 @@
+.job-btn-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin-bottom: 10px;
+}
+
+.editable-row .ant-form-item-explain {
+  position: absolute;
+  top: 100%;
+  font-size: 12px;
+}
+
+.job-wrapper{
+  max-height: 200;
+  overflow-y: auto;
+}
