@@ -24,9 +24,7 @@ import {
 } from "@ant-design/icons";
 import "./Job.css";
 import { addJob, getJobs, removeJob, updateJob } from "../../services/job";
-import { useState, useRef } from "react";
-import { SearchOutlined } from "@ant-design/icons";
-import Highlighter from "react-highlight-words";
+
 const EditableCell = ({
   editing,
   dataIndex,
