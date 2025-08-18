@@ -95,11 +95,11 @@ const Dashboard = () => {
                 Course
               </Menu.Item>
             )}
-            {user.role === "ADMIN" && (
+            {/* {user.role === "ADMIN" && (
               <Menu.Item key="4" icon={<BarChartOutlined />} label="Analytics">
                 Analytics
               </Menu.Item>
-            )}
+            )} */}
             {(user.role === "EMPLOYER" || user.role === "ADMIN") && (
               <Menu.Item
                 key="5"
