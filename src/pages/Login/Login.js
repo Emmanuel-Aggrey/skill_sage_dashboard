@@ -42,9 +42,9 @@ const Login = () => {
         openNotification("success", "Logged in", "Logged in Successfully!");
         // onComplete();
         // navigate("/dashboard");
-        window.location.href="/dashboard";
+        window.location.href = "/dashboard";
         // setTimeout(() => {
-          
+
         // }, 1);
       } else {
         setIsLoading(false);
