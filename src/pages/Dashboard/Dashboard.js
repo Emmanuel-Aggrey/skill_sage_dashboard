@@ -82,7 +82,7 @@ const Dashboard = () => {
             </Menu.Item>
             {(user.role === "EMPLOYER" || user.role === "ADMIN") && (
               <Menu.Item key="1" icon={<TeamOutlined />} label="Job">
-                Job
+                Internal Job
               </Menu.Item>
             )}
             {(user.role === "EMPLOYER" || user.role === "ADMIN") && (
